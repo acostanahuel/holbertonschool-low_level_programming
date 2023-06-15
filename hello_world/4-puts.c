@@ -1,12 +1,11 @@
 #include<stdio.h>
 /**
- *main-main function  "print"
- *Return:0 
- */ 
+*main-main function  "puts"
+*Return: Always 0 
+*/
 int main(void)
 
 {
-	char text[] = "\"Programming is like building a multilingual puzzle";
-	puts(text);
-	return (0);
+	puts text[] = "\"Programming is like building a multilingual puzzle";
+	return(0);
 }
