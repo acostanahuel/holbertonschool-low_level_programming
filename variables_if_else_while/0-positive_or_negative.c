@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - descriptionnn
+ * main - function
  *
  * Return: 0
  */
