@@ -4,6 +4,9 @@
  *Return:0 
  */ 
 int main(void)
+/**
+ * "print"
+ */
 {
 	char text[] = "\"Programming is like building a multilingual puzzle";
 	puts(text);
