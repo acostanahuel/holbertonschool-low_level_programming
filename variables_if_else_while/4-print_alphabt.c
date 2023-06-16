@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	//itera y excluye e y q
+	/*itera y excluye e y q*/
 	char letter;
 
 	for (letter = 'a' ; letter <= 'z' ; letter++)
