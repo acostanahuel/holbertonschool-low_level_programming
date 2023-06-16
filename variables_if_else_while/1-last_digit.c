@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - soenufaowenf
+ * main - lastaaaaa
  * Return: 0
  */
 int main(void)
