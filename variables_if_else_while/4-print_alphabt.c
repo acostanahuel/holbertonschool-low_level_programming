@@ -1,11 +1,13 @@
 #include <stdio.h>
 /*
  * main - alphabtttttt
- * return: 0
+ * 
+ *Description: This function prints alphabet without e and q
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	/*itera y excluye e y q*/
 	char letter;
 
 	for (letter = 'a' ; letter <= 'z' ; letter++)
