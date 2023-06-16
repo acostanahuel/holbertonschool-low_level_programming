@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
  * main - alphabtttttt
- * 
- *Description: This function prints alphabet without e and q
+ *
+ * Description: This function prints alphabet without e and q
  *
  * Return: Always 0 (Success)
  */
