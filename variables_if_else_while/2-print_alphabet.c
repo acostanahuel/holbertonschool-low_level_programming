@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main -function
+ * main -descripkfjakjsl
  * return: 0
  */
 int main(void)
