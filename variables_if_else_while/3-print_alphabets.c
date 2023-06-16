@@ -1,23 +1,21 @@
 #include <stdio.h>
-/*
- * main -aplhabbb
- * return: 0
+/**
+ * main - alphaBET
+ * Return: 0
  */
 int main(void)
 {
-	char alphabet = 'A';
+	char alph;
 
-	for (alphabet <= 'Z')
+	for (alph = 'a' ; alph <= 'z' ; alph++)
 	{
-		putchar(alphabet);
-		alphabet++;
+	putchar (alph);
 	}
+	for (alph = 'A' ; alph <= 'Z' ; alph++)
+	{
+	putchar (alph);
+	}
+	putchar ('\n');
 
-	for (alphabet <= 'z')
-	{
-		putchar(alphabet);
-		alphabet++;
-	}
-	putchar('\n');
-	return (0);
+return (0);
 }
