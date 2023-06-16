@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main -descripkfjakjsl
+ * main -main function prints alphabet in lowercase
  * return: 0
  */
 int main(void)
