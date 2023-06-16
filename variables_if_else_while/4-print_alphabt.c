@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - alphabtttttt
+ * main -main function alphabtttttt
  *
  * Description: This function prints alphabet without e and q
  *
