@@ -5,7 +5,7 @@
  * @c: input number
  *Return: 1 if lower, 0 if else
  */
-int _islower(int c);
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
