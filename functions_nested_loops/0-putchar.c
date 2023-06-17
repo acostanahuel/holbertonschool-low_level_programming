@@ -1,11 +1,12 @@
-#include <stdio.h>
-/**
- * main - main print putchar
- * Return: 0
+#include <unistd.h>
+/*
+ *main - main function prints putchar
+ *Return: 0
  */
 int main(void)
 {
-	putchar("_putchar\n");
-	
-	return (0);
+    const char* text = "_putchar\n";
+    write(1, text, 9); 
+
+    return 0;
 }
