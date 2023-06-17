@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - print alphabet 
+ * print_alphabet - print alphabet 
  *
  * description: aasdakdña
  *
- * Return: 0
+ * Return: null 
  */
 void print_alphabet(void)
 {
@@ -16,6 +16,4 @@ void print_alphabet(void)
 		putchar(alph);
 	}
 	putchar ('\n');
-
-	return (0);
 }
