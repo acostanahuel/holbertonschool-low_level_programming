@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - print alphabet 
+ * print_alphabet - print alphabet
  *
  * description: aasdakdña
  *
- * Return: null 
+ * Return: null
  */
 void print_alphabet(void)
 {
