@@ -9,7 +9,8 @@ int main(void)
 
 	for (hexa = '0'; hexa <= 'f'; hexa++)
 	{
-		putchar(hexa);
+		if (!(hexa > '9' && hexa < 'a'))
+			putchar(hexa);
 	}
 	putchar('\n');
 
