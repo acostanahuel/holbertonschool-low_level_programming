@@ -1,10 +1,8 @@
 #include <stdio.h>
-/*
- * main -main function alphabtttttt
+/**
+ * main -mainprints alphabet without e and q
  *
- * Description: This function prints alphabet without e and q
- *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)  /*function*/
 {
