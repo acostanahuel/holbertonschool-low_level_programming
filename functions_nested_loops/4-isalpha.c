@@ -3,7 +3,7 @@
 /**
  *_isalpha - Return 1 if c is a letter or 0 otherwhise
  *@c: input number
- *Return 1 if c is a letter, 0 if else
+ *Return: 1 if c is a letter, 0 if else
  */
 int _isalpha(int c)
 {
