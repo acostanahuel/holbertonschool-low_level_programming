@@ -3,7 +3,7 @@
 /**
  *isalnum: askdljadljalk
  *@n: input number
- *Return:
+ *Return: 1 if n is positive, 0 if is zero, -1 if is negative
  */
 int print_sign(int n)
 {
