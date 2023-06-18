@@ -4,7 +4,7 @@
 /**
  *_abs - absolute value of an integer
  *@n: input a number
- *Return: absolute value of n 
+ *Return: absolute value of n
  */
 int _abs(int n)
 {
