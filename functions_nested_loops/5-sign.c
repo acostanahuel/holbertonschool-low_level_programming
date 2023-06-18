@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *isalnum: askdljadljalk
+ *print_sign - askdljadljalk
  *@n: input number
  *Return: 1 if n is positive, 0 if is zero, -1 if is negative
  */
