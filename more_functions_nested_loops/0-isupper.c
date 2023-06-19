@@ -4,9 +4,11 @@
 /**
  * main - check the code.
  *
+ *@c: input a character
+ *
  * Return: Always 0.
  */
-int main(void)
+int _isupper(int c)
 {
     char c;
 
