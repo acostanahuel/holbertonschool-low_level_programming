@@ -20,7 +20,7 @@ oclean:
 	$(RM) *.o
 
 fclean:
-	$(RM) *~. $(NAME) *.o
+	$(RM) *~ $(NAME) *.o
 
 re:
-	clean all
+	fclean all
