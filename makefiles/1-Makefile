@@ -6,3 +6,8 @@ SRC = main.c school.c
 
 school: $(SRC)
         $(CC) $(SRC) -o school
+
+
+.PHONY: clean
+clean:
+	rm -f school
