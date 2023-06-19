@@ -11,7 +11,7 @@ RM= rm -f
 $(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
-all = $(NAME)
+all: $(NAME)
 
 clean:
 	$(RM) *~ $(NAME)
@@ -22,5 +22,4 @@ oclean:
 fclean:
 	$(RM) *~. $(NAME) *.o
 
-re:
-	.PHONY
+re: fclean all
