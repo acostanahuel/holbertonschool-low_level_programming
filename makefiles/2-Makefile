@@ -9,4 +9,4 @@ NAME: school
 all: school
 
 school: main.c school.c
-	$(CC) $(SRC) $(OBJ) -o school
+	$(CC) $(SRC) $(OBJ) $(NAME) -o school
