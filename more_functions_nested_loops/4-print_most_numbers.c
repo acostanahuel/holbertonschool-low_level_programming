@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * print_most_numbers
+ *print_most_numbers
+ *
+ *@i: inmput number
  *
  *Return: 0 to 9, except 2 and 4
  *
