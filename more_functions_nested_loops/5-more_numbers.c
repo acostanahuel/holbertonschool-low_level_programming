@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * more_numbers - Checks 
- */
+* more_numbers - Checks 
+*/
 void more_numbers(void)
 {
 	int i;
