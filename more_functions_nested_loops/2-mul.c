@@ -2,12 +2,11 @@
 #include "main.h"
 
 /**
- * Multiplies two integers.
- *
+ * mul - Multiplies two integers.
  * @a: The first integer.
  * @b: The second integer.
  *
- * Return: The result of multiplying @a and @b.
+ * Return: two integers
  */
 
 
