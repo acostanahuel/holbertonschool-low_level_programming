@@ -1,13 +1,15 @@
 #include "main.h"
+
 /**
- * mul description function : multiples two integers
- * 
- * @a: a interger
- * @b: b integer
- * 
- * Return: a * b
+ * Multiplies two integers.
  *
+ * @a: The first integer.
+ * @b: The second integer.
+ *
+ * Return: The result of multiplying @a and @b.
  */
+
+
 int mul(int a, int b)
 {
 	return (a * b);
