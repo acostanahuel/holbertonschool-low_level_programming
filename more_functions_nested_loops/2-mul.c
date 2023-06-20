@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * description: multiples two integers
+ * mul description function : multiples two integers
+ * 
  * @a: a interger
  * @b: b integer
+ * 
  * Return: a * b
  *
  */
