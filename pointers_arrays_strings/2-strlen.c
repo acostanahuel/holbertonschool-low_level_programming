@@ -3,7 +3,7 @@
 
 /**
  * _strlen - aaaa
- *
+ * @s: number
  * Return:0
  *
  */
