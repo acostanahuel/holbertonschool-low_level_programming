@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - _strlen - aaaa
+ * _strlen - aaaa
  *
  * Return:0
  *
