@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strlen - aaaa
+ * main - _strlen - aaaa
  *
  * Return:0
  *
@@ -13,6 +13,6 @@ int _strlen(char *s)
 
 	for (; s[i] != '\0'; i++)
 	
-
+	
 	return	(i);
 }
