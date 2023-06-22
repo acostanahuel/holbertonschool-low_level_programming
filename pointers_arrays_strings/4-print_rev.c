@@ -2,17 +2,8 @@
 #include "main.h"
 #include <string.h>
 
-/**
- *print_rev - aaaaa
- *@s: string
- * return: bbebebe
- *srev - beeeee
- */
-
-
-#include <stdio.h>
-
-void print_rev(char *s)
+void
+print_rev(char *s)
 {
 	int len = 0;
 	int i;
@@ -31,10 +22,6 @@ void print_rev(char *s)
 	putchar('\n');
 }
 
-/**
- *srev - int
- *Return: 0
- */
 int srev(void)
 {
 	char *s = "text";
