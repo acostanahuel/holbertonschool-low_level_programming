@@ -31,7 +31,7 @@ void print_rev(char *s)
 	putchar('\n');
 }
 
-/*
+/**
  *srev - int
  *Return: 0
  */
