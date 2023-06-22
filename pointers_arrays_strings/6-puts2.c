@@ -2,13 +2,8 @@
 #include "main.h"
 #include <string.h>
 
-/**
- *@str: aaaaaaaaaaa
- *puts2 - aaa
- *return: bbbbbbbbb
- */
-
-void puts2(char *str)
+void
+puts2(char *str)
 {
 	int i = 0;
 	int len = strlen(str);
