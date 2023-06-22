@@ -2,20 +2,23 @@
 #include <string.h>
 #include "main.h"
 
+
 void 
 puts_half(char *str)
 {
-	
-	int len = strlen(str)
-	
-	if ( len % 2 == 1)
-	{
-	int n = (len - 1) / 2;
+	int i = 0;
+	int length = 0;
 
-	char lastch[n + 1];
+	while (str[length++]);
 
-	strncpy(lastch, str + len -n, n);
-	lastch[n] = '\0';
-	putchar("%s\n", lastch);
-	}
+	for (i = (length + 1) / 2; str[i]; putchar(str[i++]));
+
+	putchar('\n');
+}
+
+int lastch()
+{
+	char *str = "text";
+	puts_half(str);
+	return 0;
 }
