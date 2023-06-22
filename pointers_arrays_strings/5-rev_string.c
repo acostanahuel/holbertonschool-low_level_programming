@@ -16,12 +16,14 @@ void rev_string(char *s)
 	int i = 0;
 	int len = strlen(s);
 	char change;
+	char str[100];
 
-	len = i - 1;
+	strcpy(str, s);
+	len--;
 	for (i = 0; i <= (len / 2); i++)
 	{
-		change = s[i];
-		s[i] = s[(len - i)];
+		change = str[i];
+		s[i] = str[(len - i)];
 		s[(len - i)] = change;
 	}
 
