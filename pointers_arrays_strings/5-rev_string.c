@@ -20,7 +20,7 @@ void rev_string(char *s)
 
 	strcpy(str, s);
 	len--;
-	if (len < 0)
+	if (len > 0)
 	{
 		for (i = 0; i <= (len / 2); i++)
 		{
