@@ -2,33 +2,31 @@
 #include "main.h"
 #include <string.h>
 
-void
-print_rev(char *s)
-{
-	int len = 0;
-	int i;
 
-	while (s[len] != '\0')
+#include "main.h"
+
+/**
+ * rev_string - rev string
+ * @s: aaaaaaa
+ * Return: bbbbbbbei
+ */
+
+void rev_string(char *s)
+{
+	int i = 0;
+	int len;
+	char change;
+
+	for (; s[i] != '\0'; i++)
+		
+
+	len = i - 1;
+
+	for (i = 0; i <= (len / 2); i++)
 	{
-		len++;
+		change = s[i];
+		s[i] = s[(len - i)];
+		s[(len - i)] = change;
 	}
 
-
-	for (i = len - 1; i >= 0; i--)
-	{
-		putchar(s[i]);
-	}
-
-	putchar('\n');
-
-
-int srev(void)
-{
-	char *s = "text";
-
-	printf("string: %s\n", s);
-
-	print_rev(s);
-
-	return (0);
 }
