@@ -6,6 +6,7 @@
  *print_rev - aaaaa
  *@s: string
  * return: bbebebe
+ *srev - beeeee
  */
 
 
