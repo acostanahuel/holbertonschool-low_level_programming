@@ -13,31 +13,30 @@
 
 void print_rev(char *s)
 {
-    int len = 0;
-    int i;
-    
-    while (s[len] != '\0')
-    {
-        len++;
-    }
+	int len = 0;
+	int i;
 
-    
-    for (i = len - 1; i >= 0; i--)
-    {
-        putchar(s[i]);
-    }
+	while (s[len] != '\0')
+	{
+		len++;
+	}
 
-    putchar('\n');
+
+	for (i = len - 1; i >= 0; i--)
+	{
+		putchar(s[i]);
+	}
+
+	putchar('\n');
 }
 
 int srev()
 {
-    char *s = "text";
+	char *s = "text";
+	
+	printf("string: %s\n", s);
 
-    printf("string: %s\n", s);
+	print_rev(s);
 
-    print_rev(s);
-
-    return 0;
+	return 0;
 }
-
