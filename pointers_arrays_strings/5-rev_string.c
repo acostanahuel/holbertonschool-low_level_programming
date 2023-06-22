@@ -16,7 +16,7 @@ void rev_string(char *s)
 	int i = 0;
 	int len = strlen(s);
 	char change;
-	char str[100];
+	char str[1000];
 
 	strcpy(str, s);
 	len--;
