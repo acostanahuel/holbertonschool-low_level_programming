@@ -30,6 +30,12 @@ void print_rev(char *s)
 	putchar('\n');
 }
 
+/*
+ *
+ *srev - aaaaaaaaaaaa da vuelta el print
+ */
+
+
 int srev(void)
 {
 	char *s = "text";
