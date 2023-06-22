@@ -3,7 +3,7 @@
 
 /**
  *_puts - aaaaa
- *@str: string 
+ *@str: string
  * return: bbebebe
  */
 
