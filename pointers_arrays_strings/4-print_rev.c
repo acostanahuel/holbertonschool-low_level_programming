@@ -33,10 +33,10 @@ void print_rev(char *s)
 int srev()
 {
 	char *s = "text";
-	
+
 	printf("string: %s\n", s);
 
 	print_rev(s);
 
-	return 0;
+	return (0);
 }
