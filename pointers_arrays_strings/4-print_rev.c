@@ -30,7 +30,7 @@ void print_rev(char *s)
 	putchar('\n');
 }
 
-int srev()
+int srev(void)
 {
 	char *s = "text";
 
