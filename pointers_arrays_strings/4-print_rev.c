@@ -32,8 +32,8 @@ void print_rev(char *s)
 }
 
 /*
- *
  *srev - int
+ *Return: 0
  */
 int srev(void)
 {
