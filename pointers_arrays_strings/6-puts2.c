@@ -4,7 +4,7 @@
 
 /*
  *@str: inmput n
- *
+ *puts2 - aaa
  */
 
 void puts2(char *str)
@@ -12,7 +12,7 @@ void puts2(char *str)
 	int i = 0;
 	int len = strlen(str);
 
-	for(; str[i] != '\0' ; i++)
+	for (; str[i] != '\0' ; i++)
 
 		len = i;
 
