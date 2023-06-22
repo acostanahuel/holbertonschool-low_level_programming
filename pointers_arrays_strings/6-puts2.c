@@ -3,8 +3,9 @@
 #include <string.h>
 
 /**
- *@str: inmput n
+ *@str: aaaaaaaaaaa
  *puts2 - aaa
+ *return: bbbbbbbbb
  */
 
 void puts2(char *str)
