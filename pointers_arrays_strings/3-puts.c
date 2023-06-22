@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * _puts - aaaaa
@@ -6,14 +7,10 @@
  * return: bbebebe
  */
 
-
-void _puts(char *str)
+void _puts(char *str) 
 {
-	int i = 0;
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	
+	putchar (*str);
 
-	for(; str[i] != '\0'; i++)
-		
-		_putchar(str[i]);
-
-		_putchar('\n');
 }
