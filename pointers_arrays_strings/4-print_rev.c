@@ -33,10 +33,8 @@ void print_rev(char *s)
 
 /*
  *
- *srev - aaaaaaaaaaaa da vuelta el print
+ *srev - int
  */
-
-
 int srev(void)
 {
 	char *s = "text";
