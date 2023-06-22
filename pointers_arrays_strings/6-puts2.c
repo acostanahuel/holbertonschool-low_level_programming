@@ -2,7 +2,7 @@
 #include "main.h"
 #include <string.h>
 
-/*
+/**
  *@str: inmput n
  *puts2 - aaa
  */
