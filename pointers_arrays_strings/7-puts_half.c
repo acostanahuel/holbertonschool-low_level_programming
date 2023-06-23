@@ -7,21 +7,19 @@ void
 puts_half(char *str)
 {
 	int i = 0;
-	int length = 0;
+	int len;
 
-	while
+	for (; str[i] != '\0'; i++)
+		continue;
 
-		(str[length++]);
+	len = i;
 
+	if (len % 2 != 0)
+		for (i = ((len / 2) + 1); (str[i] != '\0'); i++)
+			putchar(str[i]);
+	else
+		for (i = (len / 2); (str[i] != '\0'); i++)
+			putchar(str[i]);
 
-	for (i = length / 2; str[i]; putchar(str[i++]));
-			continue 
 	putchar('\n');
-}
-
-int lastch(void)
-{
-	char *str = "text";
-	puts_half(str);
-	return (0);
 }
