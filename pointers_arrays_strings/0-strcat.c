@@ -3,9 +3,10 @@
 #include <string.h>
 
 /**
- * _strcat - print catenates 
+ * _strcat - print catenates
  * @dest: destination of string
  * @src: where is the string
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -15,7 +16,7 @@ char *_strcat(char *dest, char *src)
 
 	for (i = 0; src[i] != '\0'; i++)
 	{
-		dest[strlenght + i] = src [i];
+		dest[strlenght + i] = src[i];
 	}
 		dest[strlenght + i] = '\0';
 		return (dest);
