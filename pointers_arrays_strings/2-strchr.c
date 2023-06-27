@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- *_strchr - locates the last occurrence 
- *	
+ *_strchr - locates the last occurrence
+ *
  *@s: string
  *@c: first occurrence
  *
- *return: 0
+ *return: aaaaaaaaa
  */
 
 char *_strchr(char *s, char c)
