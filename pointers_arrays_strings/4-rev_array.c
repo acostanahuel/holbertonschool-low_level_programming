@@ -7,7 +7,7 @@
  */
 void reverse_array(int *a, int n)
 {
-	int x ;
+	int x;
 	int i;
 	int z;
 
@@ -15,8 +15,7 @@ void reverse_array(int *a, int n)
 	{
 		z = n - 1 - i;
 		x = a[i];
-		a[i] = a[l];
-		a[l] = x;
+		a[i] = a[z];
+		a[z] = x;
 	}
-
 }
