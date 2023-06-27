@@ -5,7 +5,7 @@
  *_strchr - locates the last occurrence of a character in a string and returns a pointer to it
  *@s: string
  *@c: first occurrence
- *Return: null 
+ *
  */
 
 char *_strchr(char *s, char c)
@@ -18,5 +18,5 @@ char *_strchr(char *s, char c)
 		}
 	}
 
-	return NULL;
+	return (0);
 }
