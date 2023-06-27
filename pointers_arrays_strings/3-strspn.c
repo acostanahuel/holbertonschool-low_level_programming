@@ -3,7 +3,7 @@
 
 /**
  *_strspn - get the lenght of substring
- *@s: the string 
+ *@s: the string
  *@accept: the prefix
  *
  * Return: the number of bytes in s
