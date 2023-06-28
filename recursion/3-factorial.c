@@ -3,6 +3,7 @@
 /**
  *factorial - calculate the factorial n
  *@n: salkdñlsad
+ *Return: value
  *
  */
 
