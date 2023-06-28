@@ -1,6 +1,6 @@
 #include "main.h"
 
-void 
+void
 _print_rev_recursion(char *s)
 {
 	if (*s)
