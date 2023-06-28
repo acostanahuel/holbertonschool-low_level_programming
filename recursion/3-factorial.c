@@ -2,7 +2,7 @@
 
 /**
  *factorial - calculate the factorial n
- *
+ *@n: salkdñlsad
  *
  */
 
@@ -21,6 +21,6 @@ int factorial(int n)
 	else
 	{
 
-	 return (n * factorial(n - 1));
+	return (n * factorial(n - 1));
 	}
 }
