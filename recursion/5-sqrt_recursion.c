@@ -2,9 +2,9 @@
 
 
 int
-findsquare (int n, int i)
+findsquare(int n, int i)
 {
-	if( i * i == n)
+	if (i * i == n)
 		return (i);
 	else if (i == n)
 		return (-1);
