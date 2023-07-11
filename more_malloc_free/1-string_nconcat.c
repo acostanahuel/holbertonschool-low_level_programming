@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 
-char 
+char
 *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
-	unsigned int len = n, index; 
+	unsigned int len = n, index;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -16,8 +16,8 @@ char
 
 	for (index = 0; s1[index]; index++)
 		len++;
-	
-	concat = malloc(sizeof(char) * (len +1));
+
+	concat = malloc(sizeof(char) * (len + 1));
 
 	if (concat == NULL)
 		return (NULL);
