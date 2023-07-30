@@ -1,6 +1,6 @@
 #include "lists.h"
 
-int 
+int
 sum_dlistint(dlistint_t *head)
 {
 	int sum = 0;
